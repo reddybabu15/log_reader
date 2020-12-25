@@ -33,7 +33,6 @@ def read_reverse_order(file_name):
             yield buffer.decode()[::-1]
 
 def main():
-    print('**** Read a file in reversed order line by line ****')
     # Iterate over the file in reverse order using for loop
     for line in read_reverse_order('samp.txt'):
         #print(line)
